@@ -2,6 +2,7 @@ import busmateImg from "../assets/busmate.jpeg";
 import smartDataImg from "../assets/Smart data.png";
 import emailAgImg from "../assets/email-ag.png";
 import gramakhataImg from "../assets/gramakhata.jpeg";
+import toolkitProImg from "../assets/toolkitpro.png";
 import publicationImg from "../assets/publication.png";
 
 export interface Project {
@@ -88,5 +89,20 @@ export const projects: Project[] = [
     featured: true,
     gradient: "from-emerald-500/20 to-teal-500/10",
     mobileLayout: true,
+  },
+  {
+    title: "Toolkit Pro",
+    description:
+      "ToolKit Pro is a high-performance, single-page utility dashboard designed to consolidate nine essential daily digital tools.",
+    highlights: [
+      "Nine essential tools — financial calculators (GST, EMI, Bill Splitter) and developer utilities (Color Palette, QR Code, Image Compressor)",
+      "Instant load times and complete privacy with all operations running locally in the browser without external API dependencies",
+    ],
+    techStack: ["HTML", "CSS", "JavaScript"],
+    image: toolkitProImg,
+    github: "https://github.com/Amritha0306/ToolKit-Pro",
+    live: "https://toolkit-pro-gilt.vercel.app/",
+    featured: true,
+    gradient: "from-amber-500/20 to-orange-500/10",
   },
 ];
